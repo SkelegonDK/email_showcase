@@ -1,6 +1,8 @@
 const config = require('./config/site');
 
 module.exports = {
+  pathPrefix: "/email_showcase",
+
   siteMetadata: {
     ...config,
   },
