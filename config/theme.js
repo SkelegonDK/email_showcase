@@ -6,18 +6,18 @@ export const colors = {
     dark: '#a0afd7',
   },
   black: {
-    base: '#333438',
-    light: '#4b4e57',
+    base: '#1e1e2c',
+    light: '#2d2d44',
     blue: '#2e3246',
   },
   primary: {
-    base: '#3498db',
-    light: '#3e5fbc',
-    dark: '#284187',
+    base: '#33e1ed',
+    light: '#22ccdd',
+    dark: '#11a2ad',
   },
   background: {
-    light: '#3e5fbc',
-    dark: '#284187',
+    light: '#33e1ed',
+    dark: '#2d2d44',
   },
 };
 
@@ -67,9 +67,9 @@ export const theme = {
   },
   fontFamily: {
     // eslint-disable-next-line
-    body: `Open Sans,-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'`,
+    body: `Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'`,
     // eslint-disable-next-line
-    heading: `Candal, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'`,
+    heading: `Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'`,
   },
   layout: {
     article: '46rem',
@@ -77,7 +77,7 @@ export const theme = {
     big: '83.33333rem',
   },
   borderRadius: {
-    default: '0.4rem',
+    default: '0.2rem',
     round: '100rem',
   },
   transitions: {

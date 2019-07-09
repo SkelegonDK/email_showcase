@@ -60,12 +60,13 @@ const Information = styled.div`
   h1 {
     font-size: 2rem;
     display: inline-block;
-    color: ${props => props.theme.colors.black.base};
+    color: ${props => props.theme.colors.white.base};
     transition: all ${props => props.theme.transitions.default.duration};
     &:hover {
       color: ${props => props.theme.colors.primary.base};
     }
   }
+  color: ${props => props.theme.colors.white.base};
   text-align: center;
   flex-basis: 100%;
   max-width: 100%;
@@ -79,7 +80,7 @@ const Information = styled.div`
 
 const Date = styled.div`
   margin-top: 1rem;
-  color: ${props => props.theme.colors.black.lighter};
+  color: ${props => props.theme.colors.white.base};
 `;
 
 const Title = styled.h1`

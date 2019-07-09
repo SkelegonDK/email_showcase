@@ -103,7 +103,7 @@ const prism = css`
   .token.atrule,
   .token.attr-value,
   .token.class-name {
-    color: #e6db74;
+    color: #99c16a;
   }
   .token.function {
     color: #84c16a;

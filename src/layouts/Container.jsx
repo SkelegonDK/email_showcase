@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 
 const Wrapper = styled.section`
   text-align: ${props => (props.center ? 'center' : '')};
+  color: #ffffff;
   margin: auto;
   padding: 3rem 1.5rem;
   width: 60%;

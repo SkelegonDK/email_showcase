@@ -37,6 +37,7 @@ const Layout = ({ children }) => (
           }
 
           body {
+            background-color: #2d2d44;
             display: flex;
             flex-direction: column;
             min-height: 100vh;
@@ -52,6 +53,9 @@ const Layout = ({ children }) => (
           }
           h1 {
             font-family: ${theme.fontFamily.heading};
+          }
+          h3 {
+            color:${theme.colors.white.base}
           }
 
           ${headroom}

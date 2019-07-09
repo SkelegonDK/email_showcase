@@ -11,7 +11,7 @@ const StyledLink = styled(Link)`
   color: ${props => props.theme.colors.white.light};
   padding: 5px 10px;
   border: solid 1px #fff;
-  border-radius: 20px;
+  border-radius: 5px;
   &:hover {
     color: ${props => props.theme.colors.black.blue};
     background: ${props => props.theme.colors.white.light};
